@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="เพิ่มสถานที่"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/image_building_update"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/btnChooseImage_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="เลือกรูปภาพ" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/edit_name_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="ชื่อสถานที่"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edit_des_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="รายละเอียดสถานที่"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edit_lat_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="ตำแหน่งละติจูด"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edit_long_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="ตำแหน่งลองจิจูด"
+        android:inputType="textPersonName" />
+
+    <Spinner
+        android:id="@+id/sp_type_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:popupElevation="30dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_submit_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="แก้ไข" />
+
+    <Button
+        android:id="@+id/btn_delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ลบข้อมูล" />
+
+</LinearLayout>

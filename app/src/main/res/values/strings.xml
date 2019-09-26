@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">ARU Navigator</string>
+    <string-array name="sp_type">
+        <item>อาคาร</item>
+        <item>สถานที่</item>
+    </string-array>
+    <string-array name="sp_vertex_type">
+        <item>สถานที่</item>
+        <item>แยก</item>
+    </string-array>
+    <string name="title_activity_show_map">Map</string>
+    <string name="title_activity_choose_destination">Map</string>
+    <string name="title_activity_test_map_info">Map</string>
+    <string name="title_activity_testmap_info">Map</string>
+    <string name="title_activity_place_chooser_map">Map</string>
+
+    <string name="ac_name"><b>สถานที่</b></string>
+    <string name="ac_des"><b>รายละเอียด</b></string>
+    <string name="title_activity_new_vertex">Map</string>
+    <string name="title_activity_new_edge">Map</string>
+</resources>
