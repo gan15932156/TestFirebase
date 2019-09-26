@@ -253,15 +253,15 @@ public class ChooseDestinationActivity extends FragmentActivity implements OnMap
                 });
                 dialog.show();
                 if(autoStart.getText().toString().isEmpty()){
-                    marker.setIcon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN));
+                    //marker.setIcon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN));
                     autoStart.setText(marker.getTitle());
                 }
                 if(!autoStart.getText().toString().isEmpty()){
-                    marker.setIcon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_CYAN));
+                    //marker.setIcon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_CYAN));
                     autoEnd.setText(marker.getTitle());
                 }
                 if(autoEnd.getText().toString().isEmpty()){
-                    marker.setIcon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_CYAN));
+                    //marker.setIcon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_CYAN));
                     autoEnd.setText(marker.getTitle());
                 }
                 return false;
@@ -300,6 +300,7 @@ public class ChooseDestinationActivity extends FragmentActivity implements OnMap
         }
     }
     public void cal_path(String source,String destination){
+        line.remove();
         ArrayList<String> lo_name = new ArrayList<String>();
 
         lo_name.add(source);
